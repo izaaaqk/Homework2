@@ -1,0 +1,81 @@
+.header h1 {
+    display: flex;
+    background-color: aquamarine;
+    font-size: 69px;
+    font-family: "Adobe Devanagari", serif;
+}
+.container {
+    width: auto;
+    background-color: lavender;
+    font-family: "Adobe Devanagari", serif;
+    font-size: 50px;
+}
+
+.pContainer{;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 24px;
+    background-color: lightgreen;
+    flex-direction: row;
+}
+#project1 {
+    flex: 1 0 100%;
+    padding: .5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: .5rem;
+    max-width: 80%;
+    min-width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#projects {
+    flex: 1 0 33.33%;
+    padding: .5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: .5rem;
+    max-width: 80%;
+    min-width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image {
+    max-width: 100%;
+    display: flex;
+
+}
+#image1 {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px ridge blue;
+    padding: 5px;
+;
+}
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightblue;
+    padding-top: 10px;
+}
+
+.nav-list {
+    display: flex;
+    width: 150px;
+    justify-content: flex-end;
+}
+.list {
+    display: flex;
+    justify-content: center;
+
+}
+.list-items {
+    list-style: none;
+    margin-left: 8px;
+    font-size: 18px;
+}
+.footer {
+    padding-bottom: 25px;
+}
