@@ -1,4 +1,8 @@
 <h1>Portfolio</h1>
 
-this homework was about creating a portafolio from scratch usin what we learn in class, using css and html.
-flexbox was a main thing on this proyect.
+This is my portfolio
+<br>it was created with CSS and HTML
+<br>It has some of my projects and links to my github, linkedin and resume
+<br>
+https://izaaaqk.github.io/Portfolio/
+<br>![this is how the applooks like](./images/portfolio.jpg)
