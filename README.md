@@ -5,4 +5,4 @@ This is my portfolio
 <br>It has some of my projects and links to my github, linkedin and resume
 <br>
 https://izaaaqk.github.io/Portfolio/
-<br>![this is how the applooks like](./images/portfolio.jpg)
+<br>![this is how the applooks like](./assets/images/portfolio.jpg)
