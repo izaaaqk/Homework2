@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -16,20 +18,43 @@
         Isaac Aguirre
     </h1>
 </header>
-
-<nav class="nav-container">
-    <ul class="nav-list">
-        <li class="list-items">
-            <a href="#About">About</a>
-        </li>
-        <li class="list-items">
-            <a href="#Portfolio">Portfolio</a>
-        </li>
-        <li class="list-items">
-           <a href="#Contact">Contact</a>
-        </li>
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Izaaaqk</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
+<!--<nav class="nav-container">-->
+<!--    <ul class="nav-list">-->
+<!--        <li class="list-items">-->
+<!--            <a href="#About">About</a>-->
+<!--        </li>-->
+<!--        <li class="list-items">-->
+<!--            <a href="#Portfolio">Portfolio</a>-->
+<!--        </li>-->
+<!--        <li class="list-items">-->
+<!--           <a href="#Contact">Contact</a>-->
+<!--        </li>-->
+<!--    </ul>-->
+<!--</nav>-->
 
 <section class="container">
     <h1 id="About">
@@ -49,47 +74,84 @@
 
     </h2>
     <p class="pContainer">
-        This is where I will display my projects.
+        Here I got some of the projects I created using HTML, CSS, and javaScript
     </p>
-    <article class="pContainer">
-        <div id="project1">
-            <p>Project 1</p>
-            <a href="https://www.google.com/"><img src="./assets/images/FeAndLo.jpg" alt="Image" class="image"> </a>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://izaaaqk.github.io/WeatherBeatsProject1/">
+                    <img src="./assets/images/weatherBeats.jpg" alt="Image"  class="d-block w-100" ></a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://izaaaqk.github.io/Homework3">
+                    <img src="./assets/images/passWordGen.jpg" alt="Image"  class="d-block w-100" ></a>
+
+            </div>
+            <div class="carousel-item">
+                <a href="https://izaaaqk.github.io/Homework4">
+                <img src="./assets/images/quiz.jpg" alt="Image"  class="d-block w-100" ></a>
+
+            </div>
         </div>
-        <div id="projects">
-            <p>Project 2</p>
-            <a href="https://www.google.com/"><img src="./assets/images/FeAndLo.jpg" alt="Image" class="image"> </a>
-        </div>
-        <div id="projects">
-            <p>Project 3</p>
-            <a href="https://www.google.com/"><img src="./assets/images/FeAndLo.jpg" alt="Image" class="image"> </a>
-        </div>
-        <div id="projects">
-            <p>Project 4</p>
-            <a href="https://www.google.com/"><img src="./assets/images/FeAndLo.jpg" alt="Image" class="image"> </a>
-        </div>
-    </article>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<!--    <article class="pContainer">-->
+<!--        <div id="project1">-->
+<!--            <p>Project 1</p>-->
+<!--            <a href="https://www.google.com/"><img src="./assets/images/FeAndLo.jpg" alt="Image" class="image"> </a>-->
+<!--        </div>-->
+<!--        <div id="projects">-->
+<!--            <p>Project 2</p>-->
+<!--            <a href="https://www.google.com/"><img src="./assets/images/FeAndLo.jpg" alt="Image" class="image"> </a>-->
+<!--        </div>-->
+<!--        <div id="projects">-->
+<!--            <p>Project 3</p>-->
+<!--            <a href="https://www.google.com/"><img src="./assets/images/FeAndLo.jpg" alt="Image" class="image"> </a>-->
+<!--        </div>-->
+<!--        <div id="projects">-->
+<!--            <p>Project 4</p>-->
+<!--            <a href="https://www.google.com/"><img src="./assets/images/FeAndLo.jpg" alt="Image" class="image"> </a>-->
+<!--        </div>-->
+<!--    </article>-->
 
     <footer class="footer">
         <h3 id="Contact">
         Contact
         </h3>
-        <ul class="list">
-            <li class="list-items">
-                <a href="https://voice.google.com/">915-777-6347</a>
-            </li>
-            <li class="list-items">
-                <a href="https://www.gmail.com/">isaac.le.aguirre@gmail.com</a>
-            </li>
-            <li class="list-items">
+        <div class="row align-items-center">
+            <div class="col">
+                <a href="https://www.gmail.com/">isaac.aguirre@du.edu</a>
+            </div>
+            <div class="col">
                 <a href="https://github.com/izaaaqk">Github</a>
-            </li>
-        </ul>
+            </div><div class="col">
+                <a href="https://www.linkedin.com/in/isaac-aguirre-b109b520a/">LinkedIn</a>
+            </div>
+        </div>
+
+<!--        -->
+<!--        <ul class="list">-->
+<!--            <li class="list-items">-->
+<!--                <a href="https://www.gmail.com/">isaac.aguirre@du.edu</a>-->
+<!--            </li>-->
+<!--            <li class="list-items">-->
+<!--                <a href="https://github.com/izaaaqk">Github</a>-->
+<!--            </li>-->
+<!--        </ul>-->
     </footer>
 
 
 
 </section>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="undefined" crossorigin="anonymous"></script>
 </html>
