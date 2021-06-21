@@ -8,10 +8,11 @@
     width: auto;
     background-color: lavender;
     font-family: "Adobe Devanagari", serif;
-    font-size: 50px;
+    font-size: 55px;
+    text-alain: center
 }
 
-.pContainer{;
+.pContainer{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -78,4 +79,8 @@
 }
 .footer {
     padding-bottom: 25px;
+}
+
+.col {
+    text-align: center;
 }
